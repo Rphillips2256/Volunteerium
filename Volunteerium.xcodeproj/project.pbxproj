@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		906AE1F91E69B48700253113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AE1F81E69B48700253113 /* AppDelegate.swift */; };
-		906AE1FB1E69B48700253113 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AE1FA1E69B48700253113 /* ViewController.swift */; };
+		906AE1FB1E69B48700253113 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AE1FA1E69B48700253113 /* InitialViewController.swift */; };
 		906AE1FE1E69B48700253113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906AE1FC1E69B48700253113 /* Main.storyboard */; };
 		906AE2001E69B48700253113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 906AE1FF1E69B48700253113 /* Assets.xcassets */; };
 		906AE2031E69B48700253113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 906AE2011E69B48700253113 /* LaunchScreen.storyboard */; };
+		906AE20B1E69B97300253113 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AE20A1E69B97300253113 /* SignUpViewController.swift */; };
+		906AE20D1E6B049400253113 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906AE20C1E6B049300253113 /* UsersViewController.swift */; };
+		906AE2111E6B0B8D00253113 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 906AE2101E6B0B8D00253113 /* GoogleService-Info.plist */; };
+		BF99A121ABD5BBA1F7CDBBBA /* Pods_Volunteerium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 284B23FADD8F10F552966AF3 /* Pods_Volunteerium.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		284B23FADD8F10F552966AF3 /* Pods_Volunteerium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Volunteerium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C1D28150A3F05AAD07C02F /* Pods-Volunteerium.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Volunteerium.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Volunteerium/Pods-Volunteerium.debug.xcconfig"; sourceTree = "<group>"; };
+		83BD8E261D5EB7E590079ED2 /* Pods-Volunteerium.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Volunteerium.release.xcconfig"; path = "Pods/Target Support Files/Pods-Volunteerium/Pods-Volunteerium.release.xcconfig"; sourceTree = "<group>"; };
 		906AE1F51E69B48700253113 /* Volunteerium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Volunteerium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		906AE1F81E69B48700253113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		906AE1FA1E69B48700253113 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		906AE1FA1E69B48700253113 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		906AE1FD1E69B48700253113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		906AE1FF1E69B48700253113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		906AE2021E69B48700253113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		906AE2041E69B48700253113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		906AE20A1E69B97300253113 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		906AE20C1E6B049300253113 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		906AE2101E6B0B8D00253113 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF99A121ABD5BBA1F7CDBBBA /* Pods_Volunteerium.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E5CCA55CA8EA5222704FED2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				284B23FADD8F10F552966AF3 /* Pods_Volunteerium.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		906AE1EC1E69B48700253113 = {
 			isa = PBXGroup;
 			children = (
 				906AE1F71E69B48700253113 /* Volunteerium */,
 				906AE1F61E69B48700253113 /* Products */,
+				F5E5CE0CBCFDFA8587CA489B /* Pods */,
+				5E5CCA55CA8EA5222704FED2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +75,26 @@
 		906AE1F71E69B48700253113 /* Volunteerium */ = {
 			isa = PBXGroup;
 			children = (
+				906AE2101E6B0B8D00253113 /* GoogleService-Info.plist */,
 				906AE1F81E69B48700253113 /* AppDelegate.swift */,
-				906AE1FA1E69B48700253113 /* ViewController.swift */,
+				906AE1FA1E69B48700253113 /* InitialViewController.swift */,
 				906AE1FC1E69B48700253113 /* Main.storyboard */,
 				906AE1FF1E69B48700253113 /* Assets.xcassets */,
 				906AE2011E69B48700253113 /* LaunchScreen.storyboard */,
 				906AE2041E69B48700253113 /* Info.plist */,
+				906AE20A1E69B97300253113 /* SignUpViewController.swift */,
+				906AE20C1E6B049300253113 /* UsersViewController.swift */,
 			);
 			path = Volunteerium;
+			sourceTree = "<group>";
+		};
+		F5E5CE0CBCFDFA8587CA489B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46C1D28150A3F05AAD07C02F /* Pods-Volunteerium.debug.xcconfig */,
+				83BD8E261D5EB7E590079ED2 /* Pods-Volunteerium.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 906AE2071E69B48700253113 /* Build configuration list for PBXNativeTarget "Volunteerium" */;
 			buildPhases = (
+				CAA56F85FC03F7385F773F38 /* [CP] Check Pods Manifest.lock */,
 				906AE1F11E69B48700253113 /* Sources */,
 				906AE1F21E69B48700253113 /* Frameworks */,
 				906AE1F31E69B48700253113 /* Resources */,
+				84275E2D398C626D0EC42D1A /* [CP] Embed Pods Frameworks */,
+				843912E7F0BFCCCE470A5A64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +132,7 @@
 				TargetAttributes = {
 					906AE1F41E69B48700253113 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 65JR46P2W2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				906AE2031E69B48700253113 /* LaunchScreen.storyboard in Resources */,
+				906AE2111E6B0B8D00253113 /* GoogleService-Info.plist in Resources */,
 				906AE2001E69B48700253113 /* Assets.xcassets in Resources */,
 				906AE1FE1E69B48700253113 /* Main.storyboard in Resources */,
 			);
@@ -131,12 +169,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		84275E2D398C626D0EC42D1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Volunteerium/Pods-Volunteerium-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		843912E7F0BFCCCE470A5A64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Volunteerium/Pods-Volunteerium-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAA56F85FC03F7385F773F38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		906AE1F11E69B48700253113 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				906AE1FB1E69B48700253113 /* ViewController.swift in Sources */,
+				906AE20B1E69B97300253113 /* SignUpViewController.swift in Sources */,
+				906AE20D1E6B049400253113 /* UsersViewController.swift in Sources */,
+				906AE1FB1E69B48700253113 /* InitialViewController.swift in Sources */,
 				906AE1F91E69B48700253113 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,9 +344,13 @@
 		};
 		906AE2081E69B48700253113 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C1D28150A3F05AAD07C02F /* Pods-Volunteerium.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65JR46P2W2;
 				INFOPLIST_FILE = Volunteerium/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = volunteerium.com.Volunteerium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -268,9 +360,13 @@
 		};
 		906AE2091E69B48700253113 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83BD8E261D5EB7E590079ED2 /* Pods-Volunteerium.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65JR46P2W2;
 				INFOPLIST_FILE = Volunteerium/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = volunteerium.com.Volunteerium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +393,7 @@
 				906AE2091E69B48700253113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
